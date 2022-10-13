@@ -11,7 +11,13 @@ public class Node{
   }
   //Get and Set Methods
   public String getData()
-  {return data;}
+  {
+    System.out.println("Hello");
+    System.out.println("Hello");
+    System.out.println("Hello");
+    return data;
+  }
+
   public Node getNext()
   {return next;}
   public void setData(String data)
