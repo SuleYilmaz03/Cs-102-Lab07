@@ -13,9 +13,10 @@ public class Node{
   public String getData()
   {
     System.out.println("Hello");
+    System.out.println("Hello");
     return data;
   }
-  
+
   public Node getNext()
   {return next;}
   public void setData(String data)
